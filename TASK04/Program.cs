@@ -16,23 +16,15 @@ int num_B = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите третье число ");
 int num_С = Convert.ToInt32(Console.ReadLine());
 
-if (num_A>num_B)
-{
-Console.WriteLine("Максимальное число" + num_A);
-}
-else
-{
-Console.WriteLine("Максимальное число" + num_B);
-}
+int max = num_A; 
 
-if (num_B>num_С)
+if (num_B>max)
 {
 Console.WriteLine("Максимальное число" + num_B);
 }
-else
+if (num_С>max)
 {
 Console.WriteLine("Максимальное число" + num_С);
 }
-
 
 
